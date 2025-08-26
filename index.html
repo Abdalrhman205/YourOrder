@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YourOrder</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous">
+        <!-- Bootstrap Bundle (JS + Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <div
+                class="header d-flex justify-content-between align-items-center position-relative">
+                <div
+                    class="left d-flex justify-content-between align-items-center">
+                    <img class="me-3 img-fluid" src="images/🌟.png">
+                    <p>احصل على خصم 5% على اول طلب,<span>عرض:
+                            التخفيضات</span></p>
+                </div>
+                <div
+                    class="right d-flex justify-content-between align-items-center">
+                    <div
+                        class="me-3 d-flex justify-content-between align-items-center">
+                        <p>طرابلس <span class="ms-2">تغيير الموقع</span></p>
+                        <img class="ms-2 img-fluid"
+                            src="images/Location.png">
+                    </div>
+                    <div class="cart d-flex align-items-center">
+                        <div class>
+                            <img class="img-fluid"
+                                src="images/Full Shopping Basket.png">
+                        </div>
+                        <div class>
+                            <p>23 منتج</p>
+                        </div>
+                        <div class>
+                            <p> 129 دينار</p>
+                        </div>
+                        <div class>
+                            <img class="img-fluid"
+                                src="images/Forward Button.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end header -->
+            <!-- nav -->
+            <nav class="navbar navbar-expand-lg my-3">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo">
+                            <h1>طلب<span>ل</span>ك</h1>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">تصفح القائمة</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">عروض خاصة</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">المطاعم</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">تتبع الطلب</a>
+                            </li>
+                        </ul>
+                        <button class="login">
+                            <img src="images/Male User.png"
+                                class="me-2 img-fluid">
+                            <p>
+                                <a href="#">تسجيل دخول</a>
+                                <a href="#">/ إنشاء حساب</a>
+                            </p>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <!-- end nav -->
+            <!-- Hero -->
+            <div class="hero">
+                <img src="images/hero-3.svg" class="hero-3" alt="خلفية">
+
+                <div class="row">
+
+                    <!-- النص والبحث -->
+                    <div
+                        class="col-lg-5 col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+                        <div class="text">
+                            <p>جوعان؟ اطلب وجبتك المفضلة من مطاعمك المفضلة
+                                <i class="fa-solid fa-burger"></i>
+                            </p>
+                            <h3>مطاعمك المفضلة،<br>
+                                <span>بسرعة وسهولة <i
+                                        class="fa-solid fa-rocket"></i></span>
+                            </h3>
+                            <p class="text-black-50">
+                                اطلب الآن وتمتع بعروض حصرية <i
+                                    class="fa-solid fa-gift"></i>
+                            </p>
+                        </div>
+                        <div class="postcode">
+                            <p class="text-black-50">
+                                ادخل الرمز البريدي لمعرفة المطاعم القريبة منك
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <form action="#">
+                                <div class="input-group">
+                                    <input type="search" class="searchPostcode"
+                                        placeholder="اكتب الرمز هنا...">
+                                    <button type="submit"><i
+                                            class="fa-solid fa-magnifying-glass"></i>
+                                        بحث</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- أيقونات خطوات الطلب -->
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <img class="hero-1" src="images/hero-1.png" alt>
+                        <img class="hero-2" src="images/hero-2.png" alt>
+                        <div class="boxes-comments">
+
+                            <!-- الخطوة 1 -->
+                            <div class="box box-1">
+                                <div class="number">
+                                    <img src="images/1.png" alt="1">
+                                </div>
+                                <div class="comment">
+                                    <h1>طلبك <span>الآن</span></h1>
+                                    <p> تم استلام طلبك </p>
+                                    <p class="text-black-50">في انتظار قبول
+                                        المطعم </p>
+                                </div>
+                            </div>
+
+                            <!-- الخطوة 2 -->
+                            <div class="box box-2">
+                                <div class="number">
+                                    <img src="images/2.png" alt="2">
+                                </div>
+                                <div class="comment">
+                                    <h1>طلبك <span>تم قبوله</span></h1>
+                                    <p>تم قبول الطلب! </p>
+                                    <p class="text-black-50">سيتم توصيل طلبك
+                                        قريبًا </p>
+                                </div>
+                            </div>
+
+                            <!-- الخطوة 3 -->
+                            <div class="box box-3">
+                                <div class="number">
+                                    <img src="images/3.png" alt="3">
+                                </div>
+                                <div class="comment">
+                                    <h1>طلبك <span>قريب</span></h1>
+                                    <p>الدلفيري قريب منك! </p>
+                                    <p class="text-black-50">هم على وشك الوصول –
+                                        استعد!</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- end Hero -->
+
+            <!-- Seals -->
+            <div class="seals my-4 position-relative">
+
+                <div
+                    class="top d-flex flex-wrap justify-content-between align-items-center">
+                    <div
+                        class="d-flex justify-content-between align-items-center">
+                        <p>حتى -40%</p>
+                        <p>عروض حصرية لطلبك </p>
+                    </div>
+
+                    <ul>
+                        <li>معجنات</li>
+                        <li>اكل صحي</li>
+                        <li class="active">بيتزا ووجبات سريعة</li>
+                        <li>أخرى</li>
+                    </ul>
+                </div>
+
+                <div class="container my-3">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card card-1">
+                                <img src="images/shadew-seals.png" alt>
+                                <div class="seal">
+                                    <p>49%</p>
+                                </div>
+                                <div class="text">
+                                    <p>مطعم</p>
+                                    <h1>الكرم</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card card-2">
+                                <img src="images/shadew-seals.png" alt>
+                                <div class="seal">
+                                    <p>49%</p>
+                                </div>
+                                <div class="text">
+                                    <p>مطعم</p>
+                                    <h1>العمو</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card card-3">
+                                <img src="images/shadew-seals.png" alt>
+                                <div class="seal">
+                                    <p>49%</p>
+                                </div>
+                                <div class="text">
+                                    <p>مطعم</p>
+                                    <h1>ايت فت</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Seals -->
+
+            <!-- Categories -->
+            <div class="Categories my-4 position-relative">
+
+                <div class="top">
+                    <p>فئات الطلب الشهيرة</p>
+                </div>
+
+                <div class="container my-3">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/Categories-1.png"
+                                    class="img-fluid" alt>
+                                <div class="text">
+                                    <h1>برجر ووجبات سريعة</h1>
+                                    <p>32 مطعم</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/Categories-2.png"
+                                    class="img-fluid" alt>
+                                <div class="text">
+                                    <h1> سلايط </h1>
+                                    <p>4 مطعم</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/Categories-3.png"
+                                    class="img-fluid" alt>
+                                <div class="text">
+                                    <h1> معكرونة </h1>
+                                    <p>22 مطعم</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/Categories-4.png"
+                                    class="img-fluid" alt>
+                                <div class="text">
+                                    <h1> بيتزا </h1>
+                                    <p>13 مطعم</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/Categories-5.png"
+                                    class="img-fluid" alt>
+                                <div class="text">
+                                    <h1> الفطور </h1>
+                                    <p>12 مطعم</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/Categories-6.png"
+                                    class="img-fluid" alt>
+                                <div class="text">
+                                    <h1> شربة</h1>
+                                    <p>15 مطعم</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Categories -->
+
+            <!-- Restaurants -->
+            <div class="Restaurants mt-4 mb-5 position-relative">
+                <div class="top">
+                    <p>المطاعم الشهيرة</p>
+                </div>
+                <div class="container my-3">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/restaurant-1.jpg"
+                                    class="img-fluid">
+                                <div class="text">
+                                    <h1>مطعم العنبر</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/restaurant-2.jpg"
+                                    class="img-fluid">
+                                <div class="text">
+                                    <h1>مطعم التقسيم</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/restaurant-3.jpg"
+                                    class="img-fluid">
+                                <div class="text">
+                                    <h1> العمو</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/restaurant-4.jpg"
+                                    class="img-fluid">
+                                <div class="text">
+                                    <h1> سيمافرو</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/restaurant-5.jpg"
+                                    class="img-fluid">
+                                <div class="text">
+                                    <h1> مطعم الروبيان</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="images/restaurant-6.jpg"
+                                    class="img-fluid">
+                                <div class="text">
+                                    <h1>مطعم Shrimp King</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Restaurants  -->
+
+            <!-- application -->
+            <div class="application my-5 position-relative">
+                <div class="row d-flex align-items-center">
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="friends-laughing-using-mobiles">
+                            <img
+                                class="friends-laughing-using-mobiles-shdow img-fluid"
+                                src="images/friends-laughing-using-mobiles-shdow.png"
+                                alt="friends-laughing-using-mobiles-shdow">
+                            <img
+                                class="friends-laughing-using-mobiles-photo img-fluid"
+                                src="images/friends-laughing-using-mobiles 2.png"
+                                alt="friends-laughing-using-mobiles">
+                        </div>
+                    </div>
+
+                    <div class="text col-lg-6 col-md-12 col-sm-12">
+                        <h1>مع <span>طلبك</span> كل شيء أقرب إليك</h1>
+                        <button>
+                            تجربة <span>ممتعة</span> وسريعة
+                        </button>
+                        <p>حمل تطبيق <span>طلبك</span> واستمتع بتوصيل طعامك
+                            المفضل من أفضل المطاعم الليبية في دقائق.</p>
+                        <img class="app-store img-fluid"
+                            src="images/app-store-badges-en 1.svg"
+                            alt="app-store">
+                    </div>
+
+                </div>
+            </div>
+            <!-- End application -->
+
+            <!-- WorkWUs -->
+            <div class="WorkWUs my-4 position-relative">
+                <div class="container my-3">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="card card-1">
+                                <img src="images/shadew-WorkWUs.png" alt>
+                                <div class="seal">
+                                    <p>اكسب أكثر مع رسوم أقل</p>
+                                </div>
+                                <div class="text">
+                                    <p>سجل كشريك تجاري</p>
+                                    <h1>تعاون معنا</h1>
+                                    <button>ابدأ الآن</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="card card-2">
+                                <img src="images/shadew-WorkWUs.png" alt>
+                                <div class="seal">
+                                    <p>احصل على مزايا حصرية</p>
+                                </div>
+                                <div class="text">
+                                    <p>سجل كموصل طلبات</p>
+                                    <h1>انضم إلينا</h1>
+                                    <button>ابدأ الآن</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End WorkWUs -->
+
+            <!-- aboutUs -->
+            <div class="aboutUs my-4 position-relative">
+                <div
+                    class="top d-flex flex-wrap justify-content-between align-items-center">
+                    <p>اكتشف المزيد عنا!</p>
+                    <ul>
+                        <li class="active">الأسئلة المتكررة</li>
+                        <li>من نحن؟</li>
+                        <li>برنامج الشركاء</li>
+                        <li>المساعدة والدعم</li>
+                    </ul>
+                </div>
+                <div class="row rounded-4 bg-white mt-4 p-3">
+                    <div
+                        class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center justify-content-center">
+                        <div class="question">
+                            <ul>
+                                <li class="active">كيف يعمل
+                                    طلبك؟</li>
+                                <li>كيف يعمل <span>طلبك</span>؟</li>
+                                <li>هل يمكنني تتبع طلبي مباشرة؟</li>
+                                <li>هل توجد خصومات أو عروض خاصة؟</li>
+                                <li>هل <span>طلبك</span> متاح في منطقتي؟</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <div class="row mb-3 g-4">
+                            <div
+                                class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+                                <div class="box">
+                                    <h3>قدّم طلبك!</h3>
+                                    <img class="img-fluid"
+                                        src="images/about-1.png" alt="about">
+                                    <p>قدّم طلبك عبر موقعنا أو التطبيق
+                                        المحمول</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+                                <div class="box">
+                                    <h3> تتبع التقدم</h3>
+                                    <img class="img-fluid"
+                                        src="images/about-2.png" alt="about">
+                                    <p>يمكنك تتبع حالة طلبك مع وقت التسليم</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+                                <div class="box">
+                                    <h3>استلم طلبك!</h3>
+                                    <img class="img-fluid"
+                                        src="images/about-3.png" alt="about">
+                                    <p>استلم طلبك بسرعة فائقة!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center">يُبسّط <span>طلبك</span> عملية طلب الطعام. تصفّح قائمتنا المتنوعة، اختر وجباتك المفضلة، وواصل عملية الدفع. وستصلك وجبتك اللذيذة إلى باب منزلك في أسرع وقت!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End aboutUs -->
+
+            <!-- Statistics -->
+            <div class="Statistics my-4 position-relative">
+                <div class="row">
+                    <div class="box col-lg-3 col-md-6 col-sm-12">
+                        <div class="text">
+                            <h1>546+</h1>
+                            <p> </p>
+                        </div>
+                    </div>
+                    <div class="box col-lg-3 col-md-6 col-sm-12">
+                        <div class="text">
+                            <h1>789,900+</h1>
+                            <p> الطلبات المسلَّمة</p>
+                        </div>
+                    </div>
+                    <div class="box col-lg-3 col-md-6 col-sm-12">
+                        <div class="text">
+                            <h1>690+</h1>
+                            <p> المطاعم الشريكة</p>
+                        </div>
+                    </div>
+                    <div class="box col-lg-3 col-md-6 col-sm-12">
+                        <div class="text">
+                            <h1>17,457+</h1>
+                            <p>أصناف الطعام</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Statistics -->
+
+        </div>
+        <!-- Footer -->
+        <!-- <footer>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="logo">
+                        <h1>طلبك</h1>
+                    </div>
+                    <img class="img-fluid mb-4"
+                        src="images/app-store-badges-en 1.svg" alt>
+                    <p class="text-black-50">Company # 490039-445,<br>
+                        Registered with House of companies.</p>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 mt-3">
+                    <div
+                        class="row d-flex justify-content-between align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12  w-fit">
+                            <h1 class="titleUL">Get Exclusive Deals in your
+                                Inbox</h1>
+                            <ul>
+                                <li><form action>
+                                        <div class="input-group">
+                                            <input type="search"
+                                                class="searchPostcode">
+                                            <button>Search</button>
+                                        </div>
+                                    </form>
+                                </li>
+                                <li><p class="text-black-50">we wont spam, read
+                                        our email policy</p></li>
+                                <li>
+                                    <div class>
+                                        <img src="images/Facebook.svg" alt>
+                                        <img src="images/TikTok.svg" alt>
+                                        <img src="images/Instagram.svg" alt>
+                                        <img src="images/Snapchat.svg" alt>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 w-fit">
+                            <h1 class="titleUL">Legal Pages</h1>
+                            <ul class="ulunderlineLi">
+                                <li>Terms and conditions</li>
+                                <li>Privacy</li>
+                                <li>Cookies</li>
+                                <li>Modern Slavery Statement</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 w-fit">
+                            <h1 class="titleUL">Important Links</h1>
+                            <ul class="ulunderlineLi">
+                                <li>Get help</li>
+                                <li>Add your restaurant</li>
+                                <li>Sign up to deliver</li>
+                                <li>Create a business account</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="bottom">
+            <p>Your<span>0</span>rder Copyright 2024, All Rights Reserved.</p>
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms</li>
+                <li>Pricing</li>
+                <li>Do not sell or share my personal information</li>
+            </ul>
+        </div> -->
+        <!-- End Footer -->
+        <!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="logo">
+                <h1>طلبك</h1>
+            </div>
+            <img class="img-fluid mb-4" src="images/app-store-badges-en 1.svg" alt>
+            <p class="text-black-50">شركة رقم 490039-445،<br>
+               مسجلة في دائرة الشركات.</p>
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12 mt-3">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12  w-fit">
+                    <h1 class="titleUL">احصل على عروض حصرية في بريدك</h1>
+                    <ul>
+                        <li>
+                            <form action>
+                                <div class="input-group">
+                                    <input type="search" class="searchPostcode">
+                                    <button>بحث</button>
+                                </div>
+                            </form>
+                        </li>
+                        <li>
+                            <p class="text-black-50">لن نرسل رسائل مزعجة، اقرأ سياسة البريد الإلكتروني الخاصة بنا</p>
+                        </li>
+                        <li>
+                            <div class>
+                                <img src="images/Facebook.svg" alt>
+                                <img src="images/TikTok.svg" alt>
+                                <img src="images/Instagram.svg" alt>
+                                <img src="images/Snapchat.svg" alt>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 w-fit">
+                    <h1 class="titleUL">الصفحات القانونية</h1>
+                    <ul class="ulunderlineLi">
+                        <li>الشروط والأحكام</li>
+                        <li>سياسة الخصوصية</li>
+                        <li>ملفات تعريف الارتباط (كوكيز)</li>
+                        <li>بيان مكافحة الرق الحديث</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 w-fit">
+                    <h1 class="titleUL">روابط مهمة</h1>
+                    <ul class="ulunderlineLi">
+                        <li>الحصول على المساعدة</li>
+                        <li>أضف مطعمك</li>
+                        <li>اشترك للتوصيل</li>
+                        <li>إنشاء حساب تجاري</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="bottom">
+    <p>حقوق الطبع والنشر لـ Your<span>0</span>rder 2024، جميع الحقوق محفوظة.</p>
+    <ul>
+        <li>سياسة الخصوصية</li>
+        <li>الشروط</li>
+        <li>الأسعار</li>
+        <li>لا تقم ببيع أو مشاركة معلوماتي الشخصية</li>
+    </ul>
+</div>
+<!-- End Footer -->
+
+
+        <script src="Js/all.min.js"></script>
+    </body>
+</html>
