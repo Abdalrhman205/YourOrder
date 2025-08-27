@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap");
 
 :root {
   --orange: #fc8a06;
@@ -8,9 +8,9 @@
   --darkBlue: #03081f;
 }
 
-.logo h1{
-    margin-left: 12px;
-    font-weight: bold;
+.logo h1 {
+  margin-left: 12px;
+  font-weight: bold;
 }
 /* تأكد الصور ما تطلع برة */
 img {
@@ -24,7 +24,7 @@ body {
   background-color: var(--white);
   padding: 0;
   margin: 0;
-  font-family: 'Cairo', Arial, Helvetica, sans-serif;
+  font-family: "Cairo", Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -91,7 +91,7 @@ a {
   font-size: 20px;
 }
 .header .right p {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 span {
@@ -118,11 +118,11 @@ span {
 
 /* Nav */
 nav .navbar-brand .logo h1 {
-    font-size: 29px;
-    margin: 0;
+  font-size: 29px;
+  margin: 0;
 }
-nav .navbar-brand .logo h1 span{
-    font-size: 29px;
+nav .navbar-brand .logo h1 span {
+  font-size: 29px;
 }
 .login {
   display: flex;
@@ -177,8 +177,7 @@ nav .navbar-brand .logo h1 span{
   z-index: 0;
   left: 0;
   bottom: 0;
-  transform: rotateY(
-180deg);
+  transform: rotateY(180deg);
 }
 .hero .text p {
   width: fit-content;
@@ -576,7 +575,7 @@ nav .navbar-brand .logo h1 span{
 }
 .aboutUs .top p {
   font-size: 28px;
-  margin-right: 35px;
+  margin-left: 35px;
   font-weight: bold;
   margin-bottom: 23px;
 }
@@ -588,7 +587,7 @@ nav .navbar-brand .logo h1 span{
   align-items: center;
 }
 .aboutUs .top ul li {
-  margin-right: 33px;
+  margin-left: 33px;
   font-size: 13px;
   font-weight: bold;
 }
@@ -654,37 +653,40 @@ nav .navbar-brand .logo h1 span{
 
 /* Footer */
 footer {
-    background-color: #D9D9D9;
-    padding: 35px;
+  background-color: #d9d9d9;
+  padding: 35px;
 }
-footer  .titleUL{
-    width: fit-content;
-    font-size: 20px;
-    margin-bottom: 28px;
-    color: var(--darkBlue);
-    font-weight: bold;
+footer .titleUL {
+  width: fit-content;
+  font-size: 20px;
+  margin-bottom: 28px;
+  color: var(--darkBlue);
+  font-weight: bold;
 }
-footer ul{
+footer ul {
   list-style: none;
   padding: 0;
   width: 100%;
 }
-footer .ulunderlineLi li{
-    text-decoration: underline;
+footer .ulunderlineLi li {
+  text-decoration: underline;
 }
-footer ul li{margin-bottom: 7px;width: 100%;}
+footer ul li {
+  margin-bottom: 7px;
+  width: 100%;
+}
 
-footer  form .input-group {
+footer form .input-group {
   position: relative;
 }
-footer  form .input-group input {
+footer form .input-group input {
   padding: 10px;
   border: 1px solid #0000001f;
   border-radius: 20px !important;
   background-color: #b7b7b7;
   width: 100%;
 }
-footer  form .input-group button {
+footer form .input-group button {
   border: none;
   border-radius: 20px !important;
   background-color: var(--orange);
@@ -692,137 +694,138 @@ footer  form .input-group button {
   width: 117px;
   z-index: 1;
   position: absolute;
-  right: -33px;
+  left: -33px;
   height: 46px;
 }
- .bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--darkBlue);
-    color: var(--bs-white);
-    padding: 28px 51px;
-    flex-wrap: wrap;
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--darkBlue);
+  color: var(--bs-white);
+  padding: 28px 51px;
+  flex-wrap: wrap;
 }
- .bottom ul{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    margin: 0;
-    margin-top: 13px;
+.bottom ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  margin-top: 13px;
 }
- .bottom ul li{
-    margin-right: 48px;
+.bottom ul li {
+  margin-right: 48px;
 }
 /* End Footer */
 
 /* Hero resturant */
 .hero-resturant {
-    /* padding: 10px 23px; */
-    background-color: #fafafa;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 41px;
-    height: 510px;
-    position: relative;
-    width: 100%;
-    background-image: url(../images/main-hero-resturant.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* padding: 10px 23px; */
+  background-color: #fafafa;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 41px;
+  height: 510px;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/main-hero-resturant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-resturant .row {
-    height: 100%;
-    padding: 24px;
+  height: 100%;
+  padding: 24px;
 }
-.hero-resturant .hero-resturant{
-    /* display: none; */
-    z-index: 0;
-    position: absolute;
-    right: 0;
+.hero-resturant .hero-resturant {
+  /* display: none; */
+  z-index: 0;
+  position: absolute;
+  right: 0;
 }
-.hero-resturant .text{
-    z-index: 1;
-    color: var(--darkBlue);
-    font-size: 21px;
-    width: 100%;
+.hero-resturant .text {
+  z-index: 1;
+  color: var(--darkBlue);
+  font-size: 21px;
+  width: 100%;
 }
-.hero-resturant .text h3{
-    z-index: 1;
-    color: var(--darkBlue);
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 32px;
+.hero-resturant .text h3 {
+  z-index: 1;
+  color: var(--darkBlue);
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 32px;
 }
-.hero-resturant .text .button{
-    margin-bottom: 13px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
+.hero-resturant .text .button {
+  margin-bottom: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
-.hero-resturant .text .button button{
-    padding: 11px 19px;
-    width: 49%;
-    background: var(--darkBlue);
-    color: white;
-    position: relative;
-    border: navajowhite;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.hero-resturant .text .button button {
+  padding: 11px 19px;
+  width: 49%;
+  background: var(--darkBlue);
+  color: white;
+  position: relative;
+  border: navajowhite;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.hero-resturant .text .button button img{
-    /* position: absolute; */
-    /* left: 20px; */
-    margin-right: 11px;
+.hero-resturant .text .button button img {
+  /* position: absolute; */
+  /* left: 20px; */
+  margin-right: 11px;
 }
-.hero-resturant .timeopen{
-    z-index: 1;
-    position: absolute;
-    bottom: -8px;
-    right: 0;
+.hero-resturant .timeopen {
+  z-index: 1;
+  position: absolute;
+  bottom: -8px;
+  right: 0;
 }
-.hero-resturant .timeopen p{
-    width: fit-content;
-    background: var(--orange);
-    padding: 10px;
-    color: white;
-    border-radius: 10px 0 0 10px;
+.hero-resturant .timeopen p {
+  width: fit-content;
+  background: var(--orange);
+  padding: 10px;
+  color: white;
+  border-radius: 10px 0 0 10px;
 }
-.hero-resturant .timeopen p img{}
-.hero-resturant .left{
-    position: relative;
-    transform: translateY(-50%);
-    top: 50%;
-    height: 100%;
-    padding-bottom: 55px;
+.hero-resturant .timeopen p img {
 }
-.hero-resturant .left .box-reviews{
-    z-index: 1;
-    position: absolute;
-    width: fit-content;
-    background-color: white;
-    padding: 13px;
-    text-align: center;
-    border-radius: 20px;
-    left: 0;
-    bottom: -17px;
+.hero-resturant .left {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  height: 100%;
+  padding-bottom: 55px;
 }
-.hero-resturant .left .box-reviews h1{
+.hero-resturant .left .box-reviews {
+  z-index: 1;
+  position: absolute;
+  width: fit-content;
+  background-color: white;
+  padding: 13px;
+  text-align: center;
+  border-radius: 20px;
+  left: 0;
+  bottom: -17px;
 }
-.hero-resturant .left .box-reviews .stars{
+.hero-resturant .left .box-reviews h1 {
 }
-.hero-resturant .left .box-reviews .stars svg{
-    color: #FBBC04;
+.hero-resturant .left .box-reviews .stars {
 }
-.hero-resturant .left .box-reviews p{
+.hero-resturant .left .box-reviews .stars svg {
+  color: #fbbc04;
 }
-.hero-resturant .left img{
-    /* left: 20px !important; */
-    position: relative;
-    height: 100%;
+.hero-resturant .left .box-reviews p {
+}
+.hero-resturant .left img {
+  /* left: 20px !important; */
+  position: relative;
+  height: 100%;
 }
 /* End Hero resturant */
 
@@ -834,53 +837,56 @@ footer  form .input-group button {
   font-weight: bold;
 }
 .offers-up-resturant form {
-    width: 273px;
+  width: 273px;
 }
-.offers-up-resturant form .input-group{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.offers-up-resturant form .input-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.offers-up-resturant form .input-group svg{
-    position: absolute;
-    left: 16px;
-    color: var(--bs-orange);
+.offers-up-resturant form .input-group svg {
+  position: absolute;
+  left: 16px;
+  color: var(--bs-orange);
 }
-.offers-up-resturant form .input-group input{
-    border: 1px solid gray;
-    border-radius: 20px !important;
-    padding: 10px;
-    width: 100%;
+.offers-up-resturant form .input-group input {
+  border: 1px solid gray;
+  border-radius: 20px !important;
+  padding: 10px;
+  width: 100%;
 }
 /* offers-up-resturant */
 
 /*  offers-menu-resturant */
 .offers-menu-resturant {
-    padding: 21px 2px;
-    background-color: #F3F3F3;
+  padding: 21px 2px;
+  background-color: #f3f3f3;
 }
-.offers-menu-resturant ul{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0;
-    flex-wrap: wrap;
+.offers-menu-resturant ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  flex-wrap: wrap;
 }
-.offers-menu-resturant ul li{
-    font-weight: bold;
-    font-size: 17px;
-    margin-right: 24px;
-    margin-top: 10px;
-    transition: 0.5s;
+.offers-menu-resturant ul li {
+  font-weight: bold;
+  font-size: 17px;
+  margin-right: 24px;
+  margin-top: 10px;
+  transition: 0.5s;
 }
-.offers-menu-resturant ul li:hover{cursor: pointer;color: #000000a8;}
-.offers-menu-resturant ul .active{
-    background-color: var(--darkBlue);
-    color: white;
-    padding: 11px;
-    border-radius: 20px;
+.offers-menu-resturant ul li:hover {
+  cursor: pointer;
+  color: #000000a8;
+}
+.offers-menu-resturant ul .active {
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 11px;
+  border-radius: 20px;
 }
 /* End offers-menu-resturant */
 
@@ -924,23 +930,23 @@ footer  form .input-group button {
   left: 23px;
 }
 .offer-card .card .order {
-    position: absolute;
-    bottom: -4px;
-    left: 0px;
-    background-color: white;
-    border-radius: 0 20px 0 0;
-    width: 84px;
-    display: flex;
-    height: 67px;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  background-color: white;
+  border-radius: 0 20px 0 0;
+  width: 84px;
+  display: flex;
+  height: 67px;
+  justify-content: center;
+  align-items: center;
 }
-.offer-card .card .order svg{
-    background-color: var(--darkBlue);
-    color: white;
-    border-radius: 20px;
-    padding: 2px 0;
-    font-size: 30px;
+.offer-card .card .order svg {
+  background-color: var(--darkBlue);
+  color: white;
+  border-radius: 20px;
+  padding: 2px 0;
+  font-size: 30px;
 }
 .offer-card .card img {
   width: 102%;
@@ -967,63 +973,63 @@ footer  form .input-group button {
 
 /* burger */
 .Categories-resturant .top p {
-    font-size: 37px;
-    font-weight: bold;
-    color: var(--darkBlue);
+  font-size: 37px;
+  font-weight: bold;
+  color: var(--darkBlue);
 }
 
 .Categories-resturant .burger .menu-card {
+  border-radius: 12px;
 
-border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 
-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  background: #fff;
 
-background: #fff;
+  display: flex;
 
-display: flex;
+  align-items: center;
 
-align-items: center;
+  justify-content: space-between;
 
-justify-content: space-between;
+  padding: 17px;
 
-padding: 17px;
+  width: 100%;
 
-width: 100%;
-
-position: relative;
+  position: relative;
 }
-.Categories-resturant .burger .menu-card .text {}
-.Categories-resturant .burger .menu-card .text h3{
-    font-weight: bold;
-    font-size: 20px;
+.Categories-resturant .burger .menu-card .text {
 }
-.Categories-resturant .burger .menu-card .text p{
-    margin: 14px 0;
+.Categories-resturant .burger .menu-card .text h3 {
+  font-weight: bold;
+  font-size: 20px;
 }
-.Categories-resturant .burger .menu-card .img{
+.Categories-resturant .burger .menu-card .text p {
+  margin: 14px 0;
 }
-.Categories-resturant .burger .menu-card .img img{
-    width: 150px;
+.Categories-resturant .burger .menu-card .img {
+}
+.Categories-resturant .burger .menu-card .img img {
+  width: 150px;
 }
 .Categories-resturant .burger .menu-card .order {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #ffffffc4;
-    border-radius: 0 20px 0 0;
-    /* font-size: 40px; */
-    width: 84px;
-    display: flex;
-    height: 67px;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ffffffc4;
+  border-radius: 0 20px 0 0;
+  /* font-size: 40px; */
+  width: 84px;
+  display: flex;
+  height: 67px;
+  justify-content: center;
+  align-items: center;
 }
-.Categories-resturant .burger .menu-card .order svg{
-    background-color: var(--darkBlue);
-    color: white;
-    border-radius: 20px;
-    padding: 2px 0;
-    font-size: 30px;
+.Categories-resturant .burger .menu-card .order svg {
+  background-color: var(--darkBlue);
+  color: white;
+  border-radius: 20px;
+  padding: 2px 0;
+  font-size: 30px;
 }
 
 /* burger */
@@ -1031,84 +1037,353 @@ position: relative;
 /* ENd Categories-resturant */
 
 /* information  */
-     .information {
-       background: #FBFBFB;
-       border-radius: 20px;
-     }
-.information .row{
+.information {
+  background: #fbfbfb;
+  border-radius: 20px;
+}
+.information .row .col-lg-12 {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /* الوضع الافتراضي للشاشات الكبيرة */
 }
-    .information .box {
-      /* background: white; */
-      padding: 32px 20px 0;
-      /* border-radius: 10px; */
-      /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
-      height: 447px;
-      width: 452px;
-    }
-    .information .box.dark {
-      background: #1c1f2a;
-      color: white;
-      border-radius: 0 20px 20px 0;
-    }
-    .information .box.dark span {
-      color: white !important;
-    }
+
+/* للشاشات المتوسطة والصغيرة */
+@media (max-width: 992px) {
+  .information .row .col-lg-12 {
+    flex-direction: column; /* يتحول للعمود */
+    flex-wrap: wrap; /* لضمان عدم تجاوز المحتوى */
+    padding: 0;
+  }
+  .information .row .col-lg-12 .box.dark {
+      width: 100%;
+      border-radius: 0 0 20px 20px;
+  }
+}
+
+.information .box {
+  /* background: white; */
+  padding: 32px 20px 0;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+  height: 447px;
+  width: 452px;
+}
+.information .box.dark {
+  background: #1c1f2a;
+  color: white;
+  border-radius: 0 20px 20px 0;
+}
+.information .box.dark span {
+  color: white !important;
+}
 .information svg {
-  color:var(--orange);
+  color: var(--orange);
 }
-    .information h3 {
-      margin-top: 0;
-      margin-bottom: 15px;
-      font-size: 18px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .information ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .information ul li {
-      margin-bottom: 24px;
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: 13px;
-    }
-    .information .highlight {
-      font-weight: bolder;
-      padding-left: 15px;
-      color: var(--darkBlue);
-    }
-    .information a {
-      color: #0078ff;
-      text-decoration: none;
-    }
-    .information .word-spacing {
-      word-spacing: 8px;
-    }
+.information h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.information ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.information ul li {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 13px;
+}
+.information .highlight {
+  font-weight: bolder;
+  padding-left: 15px;
+  color: var(--darkBlue);
+}
+.information a {
+  color: #0078ff;
+  text-decoration: none;
+}
+.information .word-spacing {
+  word-spacing: 8px;
+}
 /* End information  */
 
+/* location */
+.location {
+  position: relative;
+  width: 100%;
+}
 
+.location iframe {
+  border: 0;
+  width: 100%;
+  height: 457px; /* ارتفاع افتراضي */
+}
 
+/* box info */
+.location .box {
+  position: absolute;
+  top: 8%;
+  right: 3%;
+  background: var(--darkBlue);
+  color: white;
+  padding: 18px 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* max-width: 300px; */ /* للريسبونسف */
+}
 
+/* نصوص داخل box */
+.location .box h3 {
+  margin: 5px 0;
+}
+.location .box p {
+  color: var(--orange);
+  margin: 0 0 10px 0;
+}
 
+/* icon location */
+.location .loca {
+  position: absolute;
+  top: 76%;
+  left: 4%;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 36px;
+  border-radius: 15px;
+  color: white;
+  flex-direction: row-reverse;
+}
 
+.location .loca .icon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
 
+/* Media Queries */
+@media (max-width: 992px) {
+  .location .box {
+    top: 5%;
+    right: 2%;
+    /* max-width: 237px; */
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .location .box h3 {
+    font-size: 20px;
+  }
+  .location iframe {
+    height: 350px;
+  }
+}
 
+@media (max-width: 768px) {
+  .location .box {
+    margin-top: 15px;
+    position: relative;
+  }
+  .location .loca {
+    display: none;
+    /* margin: 15px; */
+  }
+  .location iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .location iframe {
+    height: 250px;
+  }
+  .location .box {
+    /* padding: 10px 15px; */
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+  }
+  .location .loca {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+.location .loca .icon {
+  position: relative;
+  left: -19px;
+}
+.location .loca .icon img {
+}
+.location .loca .text {
+}
+.location .loca .text h3 {
+}
+.location .loca .text p {
+}
+
+/* End location */
+
+/* CustomerReviews */
+.CustomerReviews {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  background: #d9d9d9;
+}
+
+.CustomerReviews .title {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: var(--darkBlue);
+  padding-right: 45px;
+}
+
+/* Box لكل تعليق */
+.CustomerReviews .box {
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 259px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Top section */
+.CustomerReviews .box .top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Right section */
+.CustomerReviews .box .top .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.CustomerReviews .box .top .right img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.CustomerReviews .box .top .right .text h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--darkBlue);
+}
+
+.CustomerReviews .box .top .right .text p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--orange);
+}
+
+/* Left section */
+.CustomerReviews .box .top .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.CustomerReviews .box .top .left .stars svg {
+  color: gold;
+  margin-left: 2px;
+}
+
+.CustomerReviews .box .top .left .text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #555;
+}
+.CustomerReviews .box .top .left .text svg {
+  color: var(--orange);
+}
+
+/* Middle section (review text) */
+.CustomerReviews .box .midddle p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+.CustomerReviews .box .midddle {
+  position: absolute;
+  bottom: 85px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .CustomerReviews .box .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .CustomerReviews .box .top .left {
+    align-items: flex-start;
+  }
+  .CustomerReviews .box .top .right .text h3 {
+    font-size: 16px;
+  }
+  .CustomerReviews .box .top .right .text p {
+    font-size: 13px;
+  }
+  .CustomerReviews .box .midddle p {
+    font-size: 14px;
+  }
+}
+
+.carousel-control-next {
+  left: 52px;
+  right: inherit;
+}
+.carousel-control-next span, 
+.carousel-control-prev span {
+  padding: 21px;
+  background-color: var(--orange) !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  top: -397px;
+}
+@media (max-width: 992px) {
+
+.carousel-control-next, .carousel-control-prev {
+    top: -688px;
+}
+}
+@media (max-width: 768px) {
+  .carousel-control-next, .carousel-control-prev {
+      top: -971px;
+  }
+
+}
+/* ENd CustomerReviews */
 
 /* منع أي فراغ أو سكرول جانبي */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-
-
 
 /* الصور داخل الـ Hero */
 .hero img {
@@ -1140,8 +1415,6 @@ html, body {
   }
 }
 
-
-
 /* Responsive */
 
 /* حل مشكلة البادينغ في الهواتف */
@@ -1164,17 +1437,17 @@ html, body {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-}
+  }
   .header .right .cart div {
     border-right: none; /* نشيل الخط عشان ما يكسر */
-    flex: 1 1 50%;       /* كل عنصر ياخذ نص عرض */
+    flex: 1 1 50%; /* كل عنصر ياخذ نص عرض */
     justify-content: center;
   }
   .aboutUs {
     padding: 43px 2px;
     background-color: #d9d9d9;
     border-radius: 20px;
-}
+  }
 }
 
 /* Header */
@@ -1313,7 +1586,7 @@ html, body {
   }
   .hero-resturant {
     height: 690px;
-}
+  }
 }
 @media screen and (max-width: 768px) {
   .hero .hero-1 {
