@@ -134,6 +134,7 @@ nav .navbar-brand .logo h1 span{
 }
 .nav-item {
   margin-right: 25px;
+  margin-top: 10px;
 }
 .nav-link {
   font-size: 17px;
@@ -214,7 +215,7 @@ nav .navbar-brand .logo h1 span{
   z-index: 1;
   position: absolute;
   left: 0;
-  height: 46px;
+  height: 100%;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-evenly;
@@ -303,7 +304,8 @@ nav .navbar-brand .logo h1 span{
 }
 .seals .top ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 2px;
   padding: 0;
   display: flex;
   align-items: center;
@@ -318,6 +320,7 @@ nav .navbar-brand .logo h1 span{
   border-radius: 20px;
   color: var(--orange);
 }
+
 .seals .card {
   border-radius: 19px;
   overflow: hidden;
@@ -384,7 +387,8 @@ nav .navbar-brand .logo h1 span{
   height: 97%;
 }
 .Categories .card .text {
-  padding-right: 11px;
+  padding-right: 15px;
+  padding-bottom: 14px;
 }
 .Categories .card .text p {
   color: var(--orange);
@@ -424,7 +428,7 @@ nav .navbar-brand .logo h1 span{
   color: var(--white);
   padding-top: 10px;
   font-size: 18px;
-  margin-bottom: 19px;
+  padding-bottom: 19px;
 }
 /* End Restaurants */
 
@@ -712,6 +716,388 @@ footer  form .input-group button {
 }
 /* End Footer */
 
+/* Hero resturant */
+.hero-resturant {
+    /* padding: 10px 23px; */
+    background-color: #fafafa;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 41px;
+    height: 510px;
+    position: relative;
+    width: 100%;
+    background-image: url(../images/main-hero-resturant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-resturant .row {
+    height: 100%;
+    padding: 24px;
+}
+.hero-resturant .hero-resturant{
+    /* display: none; */
+    z-index: 0;
+    position: absolute;
+    right: 0;
+}
+.hero-resturant .text{
+    z-index: 1;
+    color: var(--darkBlue);
+    font-size: 21px;
+    width: 100%;
+}
+.hero-resturant .text h3{
+    z-index: 1;
+    color: var(--darkBlue);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.hero-resturant .text .button{
+    margin-bottom: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-resturant .text .button button{
+    padding: 11px 19px;
+    width: 49%;
+    background: var(--darkBlue);
+    color: white;
+    position: relative;
+    border: navajowhite;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hero-resturant .text .button button img{
+    /* position: absolute; */
+    /* left: 20px; */
+    margin-right: 11px;
+}
+.hero-resturant .timeopen{
+    z-index: 1;
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+}
+.hero-resturant .timeopen p{
+    width: fit-content;
+    background: var(--orange);
+    padding: 10px;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+.hero-resturant .timeopen p img{}
+.hero-resturant .left{
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    height: 100%;
+    padding-bottom: 55px;
+}
+.hero-resturant .left .box-reviews{
+    z-index: 1;
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    padding: 13px;
+    text-align: center;
+    border-radius: 20px;
+    left: 0;
+    bottom: -17px;
+}
+.hero-resturant .left .box-reviews h1{
+}
+.hero-resturant .left .box-reviews .stars{
+}
+.hero-resturant .left .box-reviews .stars svg{
+    color: #FBBC04;
+}
+.hero-resturant .left .box-reviews p{
+}
+.hero-resturant .left img{
+    /* left: 20px !important; */
+    position: relative;
+    height: 100%;
+}
+/* End Hero resturant */
+
+/* offers-resturant */
+/* offers-up-resturant */
+.offers-up-resturant .top p {
+  font-size: 28px;
+  margin-left: 35px;
+  font-weight: bold;
+}
+.offers-up-resturant form {
+    width: 273px;
+}
+.offers-up-resturant form .input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offers-up-resturant form .input-group svg{
+    position: absolute;
+    left: 16px;
+    color: var(--bs-orange);
+}
+.offers-up-resturant form .input-group input{
+    border: 1px solid gray;
+    border-radius: 20px !important;
+    padding: 10px;
+    width: 100%;
+}
+/* offers-up-resturant */
+
+/*  offers-menu-resturant */
+.offers-menu-resturant {
+    padding: 21px 2px;
+    background-color: #F3F3F3;
+}
+.offers-menu-resturant ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.offers-menu-resturant ul li{
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 24px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.offers-menu-resturant ul li:hover{cursor: pointer;color: #000000a8;}
+.offers-menu-resturant ul .active{
+    background-color: var(--darkBlue);
+    color: white;
+    padding: 11px;
+    border-radius: 20px;
+}
+/* End offers-menu-resturant */
+
+/* End offers-resturant */
+
+/* offer-card */
+
+.offer-card .card {
+  border-radius: 19px;
+  overflow: hidden;
+  width: 100%;
+  height: 97%;
+}
+.offer-card .card.card-1,
+.offer-card .card.card-2,
+.offer-card .card.card-3 {
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  position: relative;
+
+  z-index: 2;
+}
+.offer-card .card.card-3 {
+  background-image: url(../images/offer-resturant-3.png);
+}
+.offer-card .card.card-1 {
+  background-image: url(../images/offer-resturant-1.png);
+}
+.offer-card .card.card-2 {
+  background-image: url(../images/offer-resturant-2.png);
+}
+.offer-card .card .seal {
+  background: var(--darkBlue);
+  width: fit-content;
+  padding: 14px;
+  color: var(--bs-white);
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  left: 23px;
+}
+.offer-card .card .order {
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    background-color: white;
+    border-radius: 0 20px 0 0;
+    width: 84px;
+    display: flex;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+}
+.offer-card .card .order svg{
+    background-color: var(--darkBlue);
+    color: white;
+    border-radius: 20px;
+    padding: 2px 0;
+    font-size: 30px;
+}
+.offer-card .card img {
+  width: 102%;
+  position: relative;
+  right: -4px;
+  bottom: 0px;
+  z-index: 0;
+}
+.offer-card .card .text {
+  position: absolute;
+  bottom: 24px;
+  padding-right: 31px;
+}
+.offer-card .card .text p {
+  color: var(--orange);
+}
+.offer-card .card .text h1 {
+  color: white;
+  font-size: 28px;
+}
+/* End offer-card */
+
+/* Categories-resturant */
+
+/* burger */
+.Categories-resturant .top p {
+    font-size: 37px;
+    font-weight: bold;
+    color: var(--darkBlue);
+}
+
+.Categories-resturant .burger .menu-card {
+
+border-radius: 12px;
+
+box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+
+background: #fff;
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+padding: 17px;
+
+width: 100%;
+
+position: relative;
+}
+.Categories-resturant .burger .menu-card .text {}
+.Categories-resturant .burger .menu-card .text h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Categories-resturant .burger .menu-card .text p{
+    margin: 14px 0;
+}
+.Categories-resturant .burger .menu-card .img{
+}
+.Categories-resturant .burger .menu-card .img img{
+    width: 150px;
+}
+.Categories-resturant .burger .menu-card .order {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #ffffffc4;
+    border-radius: 0 20px 0 0;
+    /* font-size: 40px; */
+    width: 84px;
+    display: flex;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+}
+.Categories-resturant .burger .menu-card .order svg{
+    background-color: var(--darkBlue);
+    color: white;
+    border-radius: 20px;
+    padding: 2px 0;
+    font-size: 30px;
+}
+
+/* burger */
+
+/* ENd Categories-resturant */
+
+/* information  */
+     .information {
+       background: #FBFBFB;
+       border-radius: 20px;
+     }
+.information .row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+    .information .box {
+      /* background: white; */
+      padding: 32px 20px 0;
+      /* border-radius: 10px; */
+      /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+      height: 447px;
+      width: 452px;
+    }
+    .information .box.dark {
+      background: #1c1f2a;
+      color: white;
+      border-radius: 0 20px 20px 0;
+    }
+    .information .box.dark span {
+      color: white !important;
+    }
+.information svg {
+  color:var(--orange);
+}
+    .information h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .information ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .information ul li {
+      margin-bottom: 24px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 13px;
+    }
+    .information .highlight {
+      font-weight: bolder;
+      padding-left: 15px;
+      color: var(--darkBlue);
+    }
+    .information a {
+      color: #0078ff;
+      text-decoration: none;
+    }
+    .information .word-spacing {
+      word-spacing: 8px;
+    }
+/* End information  */
+
+
+
+
+
+
 
 
 
@@ -950,6 +1336,9 @@ html, body {
     width: fit-content;
     right: 0;
   }
+  .hero-resturant {
+    height: 690px;
+}
 }
 @media screen and (max-width: 768px) {
   .hero .hero-1 {
